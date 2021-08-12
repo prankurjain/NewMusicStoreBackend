@@ -28,7 +28,7 @@ public class Image {
 
     //which is more than the default length for picByte column
 
-    @Column(name = "picByte", length = 1000)
+    @Column(name = "picByte", length = 100000)
     private byte[] picByte;
 
 	public Image() {
